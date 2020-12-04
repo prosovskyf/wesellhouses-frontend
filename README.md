@@ -1,5 +1,5 @@
-# 304CEM-frontend
-Project coursework for 304CEM - frontend - We Sell Houses
+# WeSellHouses frontend
+Project coursework - frontend - We Sell Houses
 <br> 
 SPA: npm start
 <br>
@@ -8,7 +8,7 @@ PORT: 3000
 Tests: npm test
 
 # To see backend repository
-[We Sell Houses backend](https://github.coventry.ac.uk/304CEM-2021SEPJAN/304CEM-backend)
+[We Sell Houses backend](https://github.com/prosovskyf/wesellhouses-backend)
 
 # Documentation (npm run docs)
     Code: port 3090 path: /
