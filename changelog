@@ -1,0 +1,93 @@
+1. Master branch
+    - initial commits to master - initial set up + design dependecies
+
+2. v0.1
+    - static component structure home, categories and placeholders
+    - routing
+    - apply design 
+    - create favicon and change title
+    - categories set up (fetch)
+
+3. v0.2
+    - get all properties in grid
+    - set up property page with carousel
+    - pagination options and others will be added later with features
+    - filter on chosen category window on homepage
+    - set up images 
+    - set up video player and get video
+    - disable buttons if no images or video available and put placeholder
+    - react-lines-ellipsis for maxlength
+    - set up body for property
+    - set to get categories images
+
+4. v0.3
+    - set up properties images on card (first image)
+    - set fixed sized imaged and set thumbnail (on backedn as well)
+    - set up category and features filters on properties grid
+    - set selectedKeys in navBar based on useLocation hook
+    - pagination added, removed from backend
+    - odrder by date
+
+5. v0.4
+    - sign up form and process
+    - success and failure windows 
+    - token verification and pop up messages
+    - added agent info on property page
+    - login in, sign up forms
+    - context with log in
+    - user menu based on role
+    - log out done
+    - password reset chain with verification reset link
+
+6. v0.5
+    - 404 page
+    - fix status codes
+    - private route for logged in resources
+    - agent info conditions
+    - user profile, upload avatar
+    
+7. v0.6
+    - 401 page
+    - private route for agents
+    - change password 
+    - get agents properties
+    - view agent properties
+    - manipulation with properties (edit, delete)
+    - edit videos and photos to properties
+
+8. v0.7
+    - create property (steps process, upload video, thumbnail, images)
+    - category management (edit create)
+    - basic linting + function style unify
+    
+9. v0.8
+    - messaging system
+    - contact agent (user)
+    - send messages between user and agent
+    - archive, delete messages (this is independant on user/agent based on backend)
+    - polling messages
+    - notification on new message
+    - clean up code
+
+10. v0.9
+    - fixes
+    - env url to api
+    - console log removal
+    - schema with backend
+    - documentation jsdocs+better docs
+    - userguide
+
+11. v0.9.1
+    - fixes
+    - better browser compatibility
+    - http server to server docs on 'npm run docs'
+    - linting
+    - tests
+
+12. v0.9.2
+    - final fixes
+    - dockerize 
+    - description
+
+    
+

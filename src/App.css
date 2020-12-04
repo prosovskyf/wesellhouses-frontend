@@ -1,0 +1,26 @@
+@import 'antd/dist/antd.css';
+
+ 
+.logo {
+    width: 150px;
+    height: 47px;
+    border-radius: 5px;
+    margin: 10px 24px 16px 20px;
+    float: left;
+    content: url('./img/logo.png');
+  }
+
+  .placeholder {
+    border: 1px solid #555;
+    content: url('./img/placeholder.png');
+  }
+
+  .car{
+    width: 100%;
+    height: auto;
+  }
+
+  .carImg {
+    width: 100%;
+    height: 450px;
+  }

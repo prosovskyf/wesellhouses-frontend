@@ -1,0 +1,341 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> components/editCategory.js</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">We Sell Houses Components</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Global</h3><ul><li><a href="global.html#logout">logout</a></li><li><a href="global.html#useAuth">useAuth</a></li><li><a href="global.html#UserContext">UserContext</a></li></ul></div><div class="category"><h2>Categories</h2><h3>Components</h3><ul><li><a href="CategoriesGrid.html">CategoriesGrid</a></li><li><a href="Category.html">Category</a></li><li><a href="CreateCategory.html">CreateCategory</a></li><li><a href="EditCategory.html">EditCategory</a></li><li><a href="ManageCategories.html">ManageCategories</a></li></ul></div><div class="category"><h2>Default pages</h2><h3>Components</h3><ul><li><a href="FailureWindow.html">FailureWindow</a></li><li><a href="Home.html">Home</a></li><li><a href="Loader.html">Loader</a></li><li><a href="NotFound.html">NotFound</a></li><li><a href="NotPermitted.html">NotPermitted</a></li><li><a href="SuccessWindow.html">SuccessWindow</a></li></ul></div><div class="category"><h2>Main APP.js</h2><h3>Components</h3><ul><li><a href="App.html">App</a></li></ul></div><div class="category"><h2>Messaging</h2><h3>Components</h3><ul><li><a href="Messages.html">Messages</a></li><li><a href="MessagesNotification.html">MessagesNotification</a></li><li><a href="messagesNotify.html">messagesNotify</a></li></ul></div><div class="category"><h2>Navigation</h2><h3>Components</h3><ul><li><a href="Nav.html">Nav</a></li><li><a href="NavLogSign.html">NavLogSign</a></li><li><a href="NavUserMenu.html">NavUserMenu</a></li></ul></div><div class="category"><h2>Properties</h2><h3>Components</h3><ul><li><a href="CreateListing.html">CreateListing</a></li><li><a href="CreateListingCategory.html">CreateListingCategory</a></li><li><a href="CreateListingMedia.html">CreateListingMedia</a></li><li><a href="CreateListingProperty.html">CreateListingProperty</a></li><li><a href="CreateListingZoopla.html">CreateListingZoopla</a></li><li><a href="MyProperties.html">MyProperties</a></li><li><a href="MyProperty.html">MyProperty</a></li><li><a href="MyPropertyImages.html">MyPropertyImages</a></li><li><a href="MyPropertyVideo.html">MyPropertyVideo</a></li><li><a href="PropertiesGrid.html">PropertiesGrid</a></li><li><a href="PropertyCard.html">PropertyCard</a></li><li><a href="PropertyPage.html">PropertyPage</a></li><li><a href="PropertyPageAgent.html">PropertyPageAgent</a></li><li><a href="PropertyPageAgentContact.html">PropertyPageAgentContact</a></li><li><a href="PropertyPageBody.html">PropertyPageBody</a></li><li><a href="PropertyPageCarousel.html">PropertyPageCarousel</a></li></ul></div><div class="category"><h2>Routes</h2><h3>Components</h3><ul><li><a href="PrivateRoute.html">PrivateRoute</a></li><li><a href="PrivateRouteAgent.html">PrivateRouteAgent</a></li></ul></div><div class="category"><h2>User profile</h2><h3>Components</h3><ul><li><a href="ChangePassword.html">ChangePassword</a></li><li><a href="LoginForm.html">LoginForm</a></li><li><a href="ResetPassVerification.html">ResetPassVerification</a></li><li><a href="ResetPassWindow.html">ResetPassWindow</a></li><li><a href="ResetPassword.html">ResetPassword</a></li><li><a href="SignupForm.html">SignupForm</a></li><li><a href="UserProfile.html">UserProfile</a></li><li><a href="Verification.html">Verification</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>components/editCategory.js</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React, { useState, useEffect } from 'react';
+import { Input, Form, Button, message, Upload, Row, Col, Popconfirm } from 'antd';
+import { CloudUploadOutlined, LoadingOutlined, DeleteOutlined, ArrowLeftOutlined } from '@ant-design/icons';
+import { useAuth } from "../context/user";
+import { useParams, useHistory } from "react-router-dom";
+import { getCategory, updateCategoryById, deleteCategoryImage, deleteCategory } from './editCategoryFunctions'
+import Loader from './loader'
+
+const layout = {
+    labelCol: {
+        span: 4,
+    },
+    wrapperCol: {
+        span: 12,
+    },
+};
+const tailLayout = {
+    wrapperCol: { offset: 7, span: 4 },
+};
+
+/**
+ * Component to edit category and edit thumbnail
+ * @category Categories
+ * @component
+ */
+function EditCategory() {
+    const { authUser } = useAuth();
+    const { id } = useParams();
+    const [category, setCategory] = useState()
+    const [escUrl, setEscUrl] = useState('')
+    const [isUploading, setUploading] = useState(false)
+    const [statusCode, setStatusCode] = useState()
+    /** Trigger rerender on state change */
+    const [change, setChange] = useState(0)
+    let history = useHistory();
+    /** Update category data on submit */
+    async function updateCategory(data) {
+        Object.keys(data).forEach(key => data[key] === (undefined || null) &amp;&amp; delete data[key])
+        let res = await updateCategoryById(authUser.token, data, id)
+        if (res.status === 201) {
+            message.success(res.body, 2)
+            setChange(Math.random())
+        }
+        else {
+            message.error(res.body, 2)
+        }
+    }
+    /** Load category data  */
+    async function loadCategory() {
+        let category = await getCategory(authUser.token, id)
+        return category
+    }
+    /** Delete category image */
+    async function deleteImage() {
+        let res = await deleteCategoryImage(authUser.token, id, category.name, category.image_url)
+        if (res.status === 200) {
+            message.success(res.body, 2)
+        }
+        else {
+            message.error(res.body, 2)
+        }
+        setChange(Math.random())
+    }
+    /** Delete whole category */
+    async function confirm() {
+        let res = await deleteCategory(authUser.token, id)
+        if (res.status === 201) {
+            message.success(res.body, 3);
+            history.push('/admin/categories')
+        }
+        else {
+            message.error(res.body, 3);
+        }
+    }
+    /** Load category on mount and when state 'change' changes */
+    useEffect(() => {
+        loadCategory().then(result => {
+            setStatusCode(result.status)
+            if ((result.status >= 200) &amp;&amp; (result.status &lt; 400)) {
+                if (result.body[0].image_url != null) {
+                    setEscUrl(result.body[0].image_url.replace(/\./, ''));
+                }
+                setCategory(result.body[0])
+            }
+        })
+    }, [change])
+
+    const uploadProps = {
+        name: 'image',
+        method: 'PUT',
+        action: `${process.env.REACT_APP_API_URL}/files/upload/category/image`,
+        headers: {
+            "Authorization": "Bearer " + authUser.token,
+            category_id: id
+        },
+        showUploadList: false,
+        beforeUpload(file) {
+            setUploading(true)
+            const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';
+            if (!isJpgOrPng) {
+                setUploading(false)
+                message.error('You can only upload JPG/PNG file!');
+                return false
+            }
+        },
+        onChange(info) {
+            if (info.file.status === 'done') {
+                setUploading(false)
+                setChange(Math.random())
+                message.success('Picture uploaded', 1);
+
+            } else if (info.file.status === 'error') {
+                setUploading(false)
+                message.error('File upload failed.', 3);
+            }
+        }
+    }
+
+    var uploadingIcon;
+    isUploading
+        ? uploadingIcon = &lt;LoadingOutlined style={{ fontSize: "20px" }} />
+        : uploadingIcon = &lt;CloudUploadOutlined style={{ fontSize: "20px" }} />
+
+    return (
+        &lt;>
+            {category
+                ? (
+                    &lt;>
+                        {statusCode === 404
+                            &amp;&amp; history.push('/404')}
+                        &lt;div style={{ float: "right", padding: "10px" }}>
+                            &lt;Popconfirm
+                                title="Are you sure you want to delete this category?"
+                                onConfirm={confirm}
+                                okText="Yes"
+                                cancelText="No"
+                            >
+                                &lt;Button type="primary" danger >
+                                    Delete category
+                                &lt;/Button>
+                            &lt;/Popconfirm>
+                        &lt;/div>
+                        &lt;div style={{ float: "left", padding: "10px" }}>
+                            &lt;Button type="text" style={{ background: "transparent" }}
+                                shape="circle" icon={&lt;ArrowLeftOutlined style={{ fontSize: "30px" }} />}
+                                onClick={() => history.push('/admin/categories')} />
+                        &lt;/div>
+                        &lt;br />
+                        &lt;div style={{ textAlign: "center" }} className={layout}>
+                            &lt;h1 style={{ textAlign: "center" }}>Editing category: {category.name}&lt;/h1>
+                        &lt;/div>
+                        &lt;br />
+                        &lt;Row>
+                            &lt;Col span={12}>
+                                &lt;br />
+                                &lt;Form
+                                    {...layout}
+                                    name="category"
+                                    initialValues={{
+                                        name: category.name,
+                                        description: category.description,
+                                    }}
+                                    onFinish={updateCategory}
+                                >
+                                    &lt;Form.Item
+                                        label="Name"
+                                        name="name"
+                                        rules={[
+                                            {
+                                                required: true,
+                                                message: 'Please input name!',
+                                            },
+                                        ]}>
+                                        &lt;Input />
+                                    &lt;/Form.Item>
+
+                                    &lt;Form.Item
+                                        label="Description"
+                                        name="description"
+                                    >
+                                        &lt;Input.TextArea />
+                                    &lt;/Form.Item>
+
+                                    &lt;Form.Item {...tailLayout}>
+                                        &lt;Button type="primary" htmlType="submit" shape="round" size="large">
+                                            Update category
+                                        &lt;/Button>
+                                    &lt;/Form.Item>
+                                &lt;/Form>
+                            &lt;/Col>
+                            &lt;Col span={8}>
+                                {category.image_url != null
+                                    ? (
+                                        &lt;div style={{ padding: "10px" }} key={category.id}>
+                                            &lt;img className="Img" alt="gallery" width={140} height={140}
+                                                src={`${process.env.REACT_APP_BACKEND}${escUrl}`} />
+                                            &lt;Button size="small" onClick={() => deleteImage()}
+                                                icon={&lt;DeleteOutlined />}
+                                                type="text" style={{ background: "transparent" }} />
+                                        &lt;/div>
+                                    )
+                                    : (
+                                        &lt;Upload
+                                            {...uploadProps}
+                                        >
+                                            &lt;Button type="text" style={{ fontSize: "20px", background: "transparent" }}
+                                                shape="circle" icon={uploadingIcon} />
+                                        &lt;/Upload>
+                                    )
+                                }
+                            &lt;/Col>
+                        &lt;/Row>
+                    &lt;/>
+                )
+                : &lt;Loader />
+            }
+
+        &lt;/>
+    );
+};
+
+export default EditCategory;</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>

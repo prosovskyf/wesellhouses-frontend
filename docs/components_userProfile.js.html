@@ -1,0 +1,291 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> components/userProfile.js</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">We Sell Houses Components</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Global</h3><ul><li><a href="global.html#logout">logout</a></li><li><a href="global.html#useAuth">useAuth</a></li><li><a href="global.html#UserContext">UserContext</a></li></ul></div><div class="category"><h2>Categories</h2><h3>Components</h3><ul><li><a href="CategoriesGrid.html">CategoriesGrid</a></li><li><a href="Category.html">Category</a></li><li><a href="CreateCategory.html">CreateCategory</a></li><li><a href="EditCategory.html">EditCategory</a></li><li><a href="ManageCategories.html">ManageCategories</a></li></ul></div><div class="category"><h2>Default pages</h2><h3>Components</h3><ul><li><a href="FailureWindow.html">FailureWindow</a></li><li><a href="Home.html">Home</a></li><li><a href="Loader.html">Loader</a></li><li><a href="NotFound.html">NotFound</a></li><li><a href="NotPermitted.html">NotPermitted</a></li><li><a href="SuccessWindow.html">SuccessWindow</a></li></ul></div><div class="category"><h2>Main APP.js</h2><h3>Components</h3><ul><li><a href="App.html">App</a></li></ul></div><div class="category"><h2>Messaging</h2><h3>Components</h3><ul><li><a href="Messages.html">Messages</a></li><li><a href="MessagesNotification.html">MessagesNotification</a></li><li><a href="messagesNotify.html">messagesNotify</a></li></ul></div><div class="category"><h2>Navigation</h2><h3>Components</h3><ul><li><a href="Nav.html">Nav</a></li><li><a href="NavLogSign.html">NavLogSign</a></li><li><a href="NavUserMenu.html">NavUserMenu</a></li></ul></div><div class="category"><h2>Properties</h2><h3>Components</h3><ul><li><a href="CreateListing.html">CreateListing</a></li><li><a href="CreateListingCategory.html">CreateListingCategory</a></li><li><a href="CreateListingMedia.html">CreateListingMedia</a></li><li><a href="CreateListingProperty.html">CreateListingProperty</a></li><li><a href="CreateListingZoopla.html">CreateListingZoopla</a></li><li><a href="MyProperties.html">MyProperties</a></li><li><a href="MyProperty.html">MyProperty</a></li><li><a href="MyPropertyImages.html">MyPropertyImages</a></li><li><a href="MyPropertyVideo.html">MyPropertyVideo</a></li><li><a href="PropertiesGrid.html">PropertiesGrid</a></li><li><a href="PropertyCard.html">PropertyCard</a></li><li><a href="PropertyPage.html">PropertyPage</a></li><li><a href="PropertyPageAgent.html">PropertyPageAgent</a></li><li><a href="PropertyPageAgentContact.html">PropertyPageAgentContact</a></li><li><a href="PropertyPageBody.html">PropertyPageBody</a></li><li><a href="PropertyPageCarousel.html">PropertyPageCarousel</a></li></ul></div><div class="category"><h2>Routes</h2><h3>Components</h3><ul><li><a href="PrivateRoute.html">PrivateRoute</a></li><li><a href="PrivateRouteAgent.html">PrivateRouteAgent</a></li></ul></div><div class="category"><h2>User profile</h2><h3>Components</h3><ul><li><a href="ChangePassword.html">ChangePassword</a></li><li><a href="LoginForm.html">LoginForm</a></li><li><a href="ResetPassVerification.html">ResetPassVerification</a></li><li><a href="ResetPassWindow.html">ResetPassWindow</a></li><li><a href="ResetPassword.html">ResetPassword</a></li><li><a href="SignupForm.html">SignupForm</a></li><li><a href="UserProfile.html">UserProfile</a></li><li><a href="Verification.html">Verification</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>components/userProfile.js</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React, { useState, useEffect } from 'react';
+import { Form, Input, Button, message, Avatar, Upload } from 'antd';
+import { UserOutlined, EditFilled, LoadingOutlined } from '@ant-design/icons'
+import { useAuth } from "../context/user";
+import { getProfileData, updateProfileData } from './userProfileFunctions'
+
+const layout = {
+    labelCol: {
+        span: 9,
+    },
+    wrapperCol: {
+        span: 6,
+    },
+};
+
+/**
+ * Component to show and allow edits in profile and change user avatar
+ * @category User profile
+ * @component
+ */
+function UserProfile() {
+    const [profileData, setProfileData] = useState()
+    const [isLoading, setLoading] = useState(false)
+    const [isLoadingButton, setLoadingButton] = useState(false)
+    const { authUser } = useAuth();
+    /** Load user profile data and set state */
+    async function loadProfile() {
+        var result = (await getProfileData(authUser.token)).body[0]
+        delete result.picture_url
+        setProfileData(result)
+    }
+    /** Update profile with data supplied in form and show message after */
+    async function updateProfile(data) {
+        setLoadingButton(true)
+        var result = await updateProfileData(authUser.token, data)
+        if (result.status === 201) {
+            setLoadingButton(false)
+            message.success('Your profile was updated!', 3);
+            setProfileData(result.body[0])
+        }
+        else {
+            message.error('Please check your values and try again!');
+            setLoadingButton(false)
+        }
+    }
+    /** On mount and when profileData state changes, call loadProfile() */
+    useEffect(() => {
+        loadProfile()
+    }, [profileData])
+
+    const uploadProps = {
+        name: 'avatar',
+        method: 'PUT',
+        action: `${process.env.REACT_APP_API_URL}/user/avatar`,
+        headers: {
+            "Authorization": "Bearer " + authUser.token
+        },
+        showUploadList: false,
+        beforeUpload(file) {
+            setLoading(true)
+            const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';
+            if (!isJpgOrPng) {
+                setLoading(false)
+                message.error('You can only upload JPG/PNG file!');
+                return isJpgOrPng
+            }
+        },
+        onChange(info) {
+            if (info.file.status === 'done') {
+                message.success('Picture was changed successfully', 3);
+                setLoading(false)
+                window.location.reload();
+
+            } else if (info.file.status === 'error') {
+                message.error('File upload failed.', 3);
+            }
+        }
+    }
+
+    var uploadingIcon;
+    isLoading
+        ? uploadingIcon = &lt;LoadingOutlined />
+        : uploadingIcon = &lt;EditFilled style={{ fontSize: "12px" }} />
+
+    return (
+        &lt;>
+            {profileData
+                &amp;&amp; (
+                    &lt;>
+                        &lt;br />
+                        &lt;div style={{ textAlign: "center" }} className={layout}>
+                            &lt;h1 style={{ textAlign: "center" }}>Hello {authUser.username}&lt;/h1>
+                            &lt;Avatar size={120} icon={&lt;UserOutlined />}
+                                src={`${process.env.REACT_APP_BACKEND}/public/avatars/agent_${authUser.username}.png`} />
+                            {' '}
+                            &lt;Upload {...uploadProps}>
+                                &lt;Button type="text" style={{ bottom: "40px", fontSize: "10px", background: "transparent" }}
+                                    shape="circle" icon={uploadingIcon} />
+
+                            &lt;/Upload>
+                        &lt;/div>
+                        &lt;br />
+                        &lt;Form
+                            {...layout}
+                            name="userinfo"
+                        >
+                            &lt;Form.Item
+                                label="Username"
+                                name="username"
+                            >
+                                &lt;Input disabled defaultValue={profileData.username} />
+                            &lt;/Form.Item>
+
+                            &lt;Form.Item
+                                label="Email"
+                                name="email"
+                            >
+                                &lt;Input disabled defaultValue={profileData.email} />
+                            &lt;/Form.Item>
+                        &lt;/Form>
+                        &lt;Form
+                            {...layout}
+                            name="profile"
+                            initialValues={{
+                                firstname: profileData.firstname,
+                                lastname: profileData.lastname,
+                                about: profileData.about,
+                                phone: profileData.phone
+                            }}
+                            onFinish={updateProfile}
+                        >
+                            &lt;Form.Item
+                                label="First name"
+                                name="firstname">
+                                &lt;Input />
+                            &lt;/Form.Item>
+
+                            &lt;Form.Item
+                                label="Last name"
+                                name="lastname"
+                            >
+                                &lt;Input />
+                            &lt;/Form.Item>
+
+                            &lt;Form.Item
+                                label="About"
+                                name="about"
+                            >
+                                &lt;Input.TextArea />
+                            &lt;/Form.Item>
+
+                            &lt;Form.Item
+                                label="Phone"
+                                name="phone"
+                            >
+                                &lt;Input />
+                            &lt;/Form.Item>
+                            &lt;div style={{ textAlign: "center" }}>
+                                &lt;Button type="primary" htmlType="submit" loading={isLoadingButton}>
+                                    Update your profile
+                    &lt;/Button>
+                            &lt;/div>
+
+
+                        &lt;/Form>
+                    &lt;/>
+                )}
+        &lt;/>
+    );
+};
+
+export default UserProfile;</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>
